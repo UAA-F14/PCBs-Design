@@ -13,4 +13,4 @@ A Class D audio amplifier with an STM32 handling the switching/DSP side, not jus
 - `firmware-CLASSD-BLACKPILL-F411/` — STM32F411 Blackpill firmware variant (Core sources + .ioc)
 
 ## Credit
-Built as coursework with [DasReyxr](https://github.com/DasReyxr) — original project history in [DasReyxr/HW-Projects](https://github.com/DasReyxr/HW-Projects). This copy is curated separately with a proper writeup and renders.
+Built as coursework with [DasReyxr](https://github.com/DasReyxr)  and [Kevin Lara](https://github.com/Gyonyu) — original project history in [DasReyxr/HW-Projects](https://github.com/DasReyxr/HW-Projects). This copy is curated separately with a proper writeup and renders.
