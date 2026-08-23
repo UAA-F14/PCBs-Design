@@ -16,4 +16,4 @@ A voltage supply with short-circuit protection, split across two boards: a **pow
 - `Power_Supply.pdf` — overall design writeup
 
 ## Credit
-Built as coursework with [DasReyxr](https://github.com/DasReyxr) — original project history in [DasReyxr/HW-Projects](https://github.com/DasReyxr/HW-Projects). This copy is curated separately with a proper writeup and renders.
+Built as coursework with [DasReyxr](https://github.com/DasReyxr) and [Kevin Lara](https://github.com/Gyonyu) — original project history in [DasReyxr/HW-Projects](https://github.com/DasReyxr/HW-Projects). This copy is curated separately with a proper writeup and renders.
