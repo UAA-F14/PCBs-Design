@@ -1,13 +1,11 @@
 # DC-AC Inverter (STM32-Controlled)
 
-An inverter board with an STM32F411 handling switching control.
+An inverter with an STM32F411 handling switching control.
 
-**Known issue:** the board outline in `Inversor.kicad_pcb` is missing/malformed (KiCad DRC flags it), so a clean 3D render isn't possible until that's fixed — no render included here yet, just the raw files.
-
-**Photos of the built board — coming soon**
+**Status: schematic and firmware only — the PCB layout was never done.** `Inversor.kicad_pcb` is an empty KiCad board file (no footprints, no outline, nothing placed), so there's no physical board here yet, only the circuit design and the code. No render or photos until the layout actually happens.
 
 ## Files
-- `Inversor.kicad_sch` / `.kicad_pcb` / `.kicad_pro` — KiCad design
+- `Inversor.kicad_sch` / `.kicad_pro` — schematic (the `.kicad_pcb` is present but empty)
 - `firmware-STM32F411/` — STM32F411 firmware (Core sources + .ioc)
 
 ## Credit
