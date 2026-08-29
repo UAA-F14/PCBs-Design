@@ -1,6 +1,7 @@
 # Buck Converter (24 V &rarr; 120 V design exam)
 
 ## Directory structure
+```
 ├── design
 │   ├── KicadDesign
 │   │   ├── Design.kicad_pcb
@@ -15,7 +16,7 @@
 ├── sim
 │   └── BuckConv.ms14
 └── simulation.asc
-
+```
 
 
 A buck converter built for a power electronics exam. (Note: the source repo's folder was mislabeled "BoostConverter" — this is a buck design.)
