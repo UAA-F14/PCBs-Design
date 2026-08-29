@@ -1,0 +1,44 @@
+
+% ----------------- Paquetes -----------------
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=3cm,right=3cm]{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{url}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{helvet} % Arial-like font
+\usepackage{comment}
+% ----------------- Fuente Arial -----------------
+% Load the biblatex package
+\usepackage[backend=biber, style=numeric]{biblatex}
+% Add your .bib file
+\usepackage{fancyhdr} % Encabezado y pie de página
+\renewcommand{\familydefault}{\sfdefault}
+% ----------------- Fuente Arial -----------------
+
+% ----------------- Interlineado 1.5 -----------------
+\onehalfspacing
+
+% ----------------- Estilos de sección -----------------
+\titleformat{\section}{\bfseries\fontsize{14}{16}\selectfont}{\thesection}{1em}{}
+\titleformat{\subsection}{\bfseries\fontsize{12}{14}\selectfont}{\thesubsection}{1em}{}
+
+% ----------------- Pie de página -----------------
+\pagestyle{fancy}
+\fancyhf{} % Limpia encabezados y pies
+\fancyfoot[L]{\fontsize{10}{12}\selectfont Electrónica de Potencia, IE-AD26}
+\fancyfoot[R]{\fontsize{10}{12}\selectfont Dr. Luis Alejandro Flores Oropeza}
+\renewcommand{\headrulewidth}{0pt} % sin línea en encabezado
+\renewcommand{\footrulewidth}{0pt} % sin línea en pie de página
+
+%-- Das comm --
+\newcommand{\titulos}[3]{
+  {\fontsize{12}{14}\bfseries \textit{#1}}\\
+  {\fontsize{10}{12}\normalfont #2}\\
+  {\fontsize{9}{11}\itshape #3}\\[0.5cm]
+
+}
