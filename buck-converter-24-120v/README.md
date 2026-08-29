@@ -1,5 +1,23 @@
 # Buck Converter (24 V &rarr; 120 V design exam)
 
+## Directory structure
+├── design
+│   ├── KicadDesign
+│   │   ├── Design.kicad_pcb
+│   │   ├── Design.kicad_pro
+│   │   ├── Design.kicad_sch
+│   └── Schematic.pdf
+├── README.md
+├── render
+│   └── render.png
+├── scripts
+│   └── 5-5 ExamenPot.wxmx
+├── sim
+│   └── BuckConv.ms14
+└── simulation.asc
+
+
+
 A buck converter built for a power electronics exam. (Note: the source repo's folder was mislabeled "BoostConverter" — this is a buck design.)
 
 ![3D render](render/render.png)
@@ -13,3 +31,4 @@ A buck converter built for a power electronics exam. (Note: the source repo's fo
 
 ## Credit
 Built as coursework with [DasReyxr](https://github.com/DasReyxr)  and [Kevin Lara](https://github.com/Gyonyu) — original project history in [DasReyxr/HW-Projects](https://github.com/DasReyxr/HW-Projects). This copy is curated separately with a proper writeup and renders.
+
