@@ -2,15 +2,55 @@
 
 A Class D audio amplifier with an STM32 handling the switching/DSP side, not just the analog power stage. Two firmware targets exist: the main board runs an STM32H523xx, and there's a second variant built around a "Blackpill" STM32F411 board.
 
-![3D render](src/README/render.png)
-**Photos of the built board — coming soon**
+## Directory structure
+```
+├── code
+│   ├── BlackPill - STM32F411CEU6
+│   │   ├── CLASSD-BLACKPILL.ioc
+│   │   ├── Core
+│   │   │   ├── Inc
+│   │   │   └── Src
+│   └── RayPill - STM32H523CET6
+│       ├── CLASSDAMPLIFIER.ioc
+│       ├── Core
+│       │   ├── Inc
+│       │   └── Src
+├── design
+│   ├── KicadDesign
+│   │   ├── Design.kicad_pcb
+│   │   ├── Design.kicad_pro
+│   │   ├── Design.kicad_sch
+│   └── Schematic.pdf
+├── doc
+│   ├── ClassDAmp.pdf
+│   ├── ClassDAmp.tex
+│   ├── generalconfig.tex
+│   ├── sn-jnl.cls
+├── README.md
+├── sim
+└── src
+    └── render.png
+```
 
-## Files
 - `ClassDAmplifier.kicad_sch` / `.kicad_pcb` / `.kicad_pro` — KiCad design
 - `ClassD.pdf` — design writeup
 - `firmware-CLASSDAMPLIFIER-H5/` — STM32H523xx firmware (Core sources + .ioc)
 - `firmware-CLASSD-BLACKPILL-F411/` — STM32F411 Blackpill firmware variant (Core sources + .ioc)
 
+
+
+![3D render](src/render.png)
+**Photos of the built board — coming soon**
+
 ## Credit
 Built as coursework with [DasReyxr](https://github.com/DasReyxr)  and [Kevin Lara](https://github.com/Gyonyu) — original project history in [DasReyxr/HW-Projects](https://github.com/DasReyxr/HW-Projects). This copy is curated separately with a proper writeup and renders.
 
+
+## Template
+```
+mkdir code design doc scripts sim src
+```
+
+```
+tree >> Readme.md
+```
