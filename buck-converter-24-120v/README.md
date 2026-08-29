@@ -19,9 +19,9 @@
 ```
 
 
-A buck converter built for a power electronics exam. (Note: the source repo's folder was mislabeled "BoostConverter" — this is a buck design.)
+A buck converter built for a power electronics exam. 
 
-![3D render](src/Render.png)
+![3D render](src/render.png)
 
 **Photos of the built board — coming soon**
 
