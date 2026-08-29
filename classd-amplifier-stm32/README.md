@@ -2,8 +2,7 @@
 
 A Class D audio amplifier with an STM32 handling the switching/DSP side, not just the analog power stage. Two firmware targets exist: the main board runs an STM32H523xx, and there's a second variant built around a "Blackpill" STM32F411 board.
 
-![3D render](render/render.png)
-
+![3D render](src/README/render.png)
 **Photos of the built board — coming soon**
 
 ## Files
@@ -14,3 +13,4 @@ A Class D audio amplifier with an STM32 handling the switching/DSP side, not jus
 
 ## Credit
 Built as coursework with [DasReyxr](https://github.com/DasReyxr)  and [Kevin Lara](https://github.com/Gyonyu) — original project history in [DasReyxr/HW-Projects](https://github.com/DasReyxr/HW-Projects). This copy is curated separately with a proper writeup and renders.
+
