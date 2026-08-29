@@ -21,7 +21,7 @@
 
 A buck converter built for a power electronics exam. (Note: the source repo's folder was mislabeled "BoostConverter" — this is a buck design.)
 
-![3D render](src/image.png)
+![3D render](src/Render.png)
 
 **Photos of the built board — coming soon**
 
